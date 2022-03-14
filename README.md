@@ -35,5 +35,5 @@ Start the server from ```/deploying```
 uvicorn main:app --reload
 ```
 
-## API
+## Usage
 Once the model is deployed, it expects GET requests to ```localhost:8000/predict``` and the parameter ```text``` for the text (string) you need to predict the dialect of.
