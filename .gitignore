@@ -2,3 +2,4 @@
 /__pycache__
 /data/texts.csv
 /data/train_data.csv
+/deploying/__pycache__
