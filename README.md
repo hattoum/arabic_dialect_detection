@@ -5,7 +5,7 @@ This project experiments with detecting Arabic dialects using a simple ML approa
 
 Clone the repo 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/hattoum/arabic_dialect_detection
 ```
 Install requirements 
 ```bash
