@@ -7,7 +7,7 @@ from string import punctuation
 
 class Dialect_Recognition:
     def __init__(self) -> None:
-        self.nn_model_path = "../models/model0.477.h5"
+        self.nn_model_path = "../models/nn_model.h5"
         self.cnb_model_path = "../models/cnb_054.joblib"
         
         self.nn_model = tf.keras.models.load_model(self.nn_model_path)
