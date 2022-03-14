@@ -2,11 +2,11 @@
 This project experiments with detecting Arabic dialects using a simple ML approach (Naive Bayes) and a RNN model.
 
 ## Model details
-### Complement Naive Bayes
+#### Complement Naive Bayes
 The first model used is a Complement Naive Bayes. I chose it because the data I had access to was fairly unbalanced and because using SVM with cross validation would take too long to train. The model achieves an average accuracy of 54% (highest f1 score: 0.69, lowest f1 score:0.25)
 
-### RNN
-Here I used a NN comprising of an embedding layer with dimensions of 300 followed by 2 LSTM layers and a dropoutt layer to mitigate overfitting. This model suffers from a lack of sufficient data as well as suboptimal word representations. The model achieves an average accuracy of 48% and a more sever difference in performance between classes(highest f1 score: 0.75, lowest f1 score:0.06)
+#### RNN
+Here I used a NN comprising of an embedding layer with dimensions of 300 followed by 2 LSTM layers and a dropoutt layer to mitigate overfitting. This model suffers from a lack of sufficient data as well as suboptimal word representations. The model achieves an average accuracy of 48% and a more severe difference in performance between classes (highest f1 score: 0.75, lowest f1 score:0.06)
 
 ## Deploying the models
 
