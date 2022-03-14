@@ -12,7 +12,8 @@ Install requirements
 pip install -r requirements.txt
 ```
 <br/>
-Fetch the data by running ```/fetching/fetch.ipynb``` 
+
+Fetch the data by running ```/fetching/fetch.ipynb```
 <br/><br/>
 
 
